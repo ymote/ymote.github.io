@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+{% include head.html %}
+
+
+<body class="version2 pages">
+    <!-- start Header Area -->
+    <header id="header">
+        <div class="container-fluid">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <div id="logo"
+                    class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                    <a href="{{ '/' | relative_url }}">
+                        <img class="logo-1" src="{{ 'img/logo.png' | relative_url }}" alt="" title="" />
+                    </a>
+                    <a href="{{ '/' | relative_url }}">
+                        <img class="logo-2" src="{{ 'img/logo.png' | relative_url }}" alt="" title="" />
+                    </a>
+                </div>
+                {% include nav-menu.html %}
+            </div>
+        </div>
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Start page-top section -->
+    <section class="page-top-section">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <h1 class="text-white">{{ page.title }}</h1>
+                </div>
+                <div class="col-lg-6  col-md-6 page-top-nav">
+                    <div>
+                        <a href="{{ '/' | relative_url }}">Home</a>
+                        <span class="lnr lnr-arrow-right"></span>
+                        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End page-top section -->
+
+    {{ content }}
+
+
+    {% include footer.html %}
+    {% include scripts.html %}
+
+</body>
+
+</html>

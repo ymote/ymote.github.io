@@ -1,0 +1,78 @@
+{%- if page.hero -%}
+    {%- assign hero = page.hero -%}
+{%- else -%}
+    {%- assign hero = site.hero -%}
+{%- endif -%}
+
+{%- assign logo1 = 'img/logo3.png' -%}
+{%- assign logo2 = 'img/logo.png' -%}
+
+{%- if hero == 'product_video' -%}
+
+    {% assign headerClass = 'header2' %}
+
+{% elsif hero == 'sass_sideo' %}
+
+    {% assign headerClass = 'header2' %}
+
+{% elsif hero == 'products_fixed' %}
+
+    {% assign headerClass = "header7" %}
+    {%- assign logo1 = 'img/logo7.png' -%}
+    {%- assign logo2 = 'img/logo.png' -%}
+
+{% elsif hero == 'product_slider' %}
+
+    {% assign headerClass = "header2" %}
+
+{% elsif hero == 'saas_slider' %}
+
+    {% assign headerClass = "header2" %}
+
+{% elsif hero == 'product_image' %}
+
+    {% assign headerClass = "header2" %}
+
+{% elsif hero == 'saas_image' %}
+
+    {% assign headerClass = "header2" %}
+
+{% elsif hero == 'product' %}
+
+    {% assign headerClass = "header" %}
+    {%- assign logo1 = 'img/logo.png' -%}
+    {%- assign logo2 = 'img/logo.png' -%}
+
+{% elsif hero == 'saas_fixed' %}
+
+    {% assign headerClass = "header2" %}
+
+{% elsif hero == "sass" %}
+
+{% assign headerClass = "header" %}
+{%- assign logo1 = 'img/logo.png' -%}
+{%- assign logo2 = 'img/logo.png' -%}
+
+{% elsif hero == "blog_details" %}
+
+{% assign headerClass = "header7" %}
+
+{% endif %}
+
+<!-- start Header Area -->
+<header id="{{ headerClass }}" >
+    <div class="container-fluid">
+        <div class="d-flex flex-wrap align-items-center justify-content-between">
+            <div id="logo" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                <a href="{{ '/' | relative_url }}">
+                    <img class="logo-1" src="{{ logo1 | relative_url }}" alt="" title="" />
+                </a>
+                <a href="{{ '/' | relative_url }}">
+                    <img class="logo-2" src="{{ logo2 | relative_url }}" alt="" title="" />
+                </a>
+            </div>
+        {% include nav-menu.html %}
+        </div>
+    </div>
+</header>
+<!-- End Header Area -->

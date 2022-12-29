@@ -1,0 +1,100 @@
+
+# sass [ only one image ]
+sass_name: 'We Made our <br> Software 100% Errorless'
+sass_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
+sass_image: 'img/hero/hero-img.png'
+sass_btn_one_link: '#'
+sass_btn_one_text:  'Start a project'
+sass_btn_two_link: '#'
+sass_btn_two_text: ' View Pricing '
+
+# saas_video [ video type mp4 ]
+saas_video_name: 'We Made our <br> Software 100% Errorless' 
+saas_video_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
+saas_video_image: 'img/mockup.png'
+saas_video_video: 'vdo/sass-bv.mp4'
+saas_video_btn_one_link: '#'
+saas_video_btn_one_text:  'Browse free demo'
+
+# sass_background_image
+sass_background_image_name: 'We Made our <br> Software 100% Errorless' 
+sass_background_image_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
+sass_background_image_image: 'img/mockup.png'
+sass_background_image_btn_one_link: '#'
+sass_background_image_btn_one_text:  'Browse free demo'
+
+# sass_fixed_image
+saas_fixed_image_name: 'We Made our <br> Software 100% Errorless' 
+saas_fixed_image_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
+saas_fixed_image_image: 'img/mockup.png'
+saas_fixed_image_btn_one_link: '#'
+saas_fixed_image_btn_one_text:  'Browse free demo'
+
+# sass_slider
+sass_slider_name: 'We Made our <br> Software 100% Errorless' 
+sass_slider_description: ' The first is a non technical method which requires the use of adware removal software.
+                            Download free adware and spyware removal software and use advanced tools to help prevent
+                            getting infected.' 
+sass_slider_image: 'img/mockup.png'
+sass_slider_btn_one_link: '#'
+sass_slider_btn_one_text:  'Browse free demo'
+sass_slider: 
+  - image: 'img/carusel/s1.jpg'
+  - image: 'img/carusel/s2.jpg'
+  - image: 'img/carusel/s3.jpg'
+
+# product [ only one image ]
+product_name: 'The most Creative <br> Theme ever for Business'
+product_text: 'The first is a non technical method which requires the use of adware removal software. Download  free adware and spyware removal software and use advanced tools to help prevent getting infected.'
+product_image: 'img/hero/hero-img2.png'
+product_btn_one_link: '#'
+product_btn_one_text:  'Browse free demo'
+
+# product_video [ video type mp4 ]
+product_video_name: 'The most Creative <br> Theame ever in Business' 
+product_video_text: 'The first is a non technical method which requires the use of adware removal software. ownload free adware and spyware removal'
+product_video_image: 'img/iPhoneX.png'
+product_video_video: 'vdo/app-bv.mp4'
+product_video_btn_one_link: '#'
+product_video_btn_one_text:  'Browse free demo'
+
+# product_background_image
+product_background_image_name: 'The most Creative <br> Theame ever in Business' 
+product_background_image_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
+product_background_image_image: 'img/iPhoneX.png'
+product_background_image_btn_one_link: '#'
+product_background_image_btn_one_text:  'Browse free demo'
+
+# product_fixed_image
+product_fixed_image: "img/iPhoneX.png"
+product_fixed_image_name: 'The most Creative <br> Theame ever in Business' 
+product_fixed_image_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
+product_fixed_image_image: 'img/iPhoneX.png'
+product_fixed_image_btn_one_link: '#'
+product_fixed_image_btn_one_text:  'Browse free demo'
+
+# product_slider
+product_slider_name: 'The most Creative <br> Theame ever in Business' 
+product_slider_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
+product_slider_image: 'img/iPhoneX.png'
+product_slider_btn_one_link: '#'
+product_slider_btn_one_text:  'Browse free demo'
+product_slider: 
+  - image: '/img/carusel/a1.jpg'
+  - image: '/img/carusel/a2.jpg'
+  - image: '/img/carusel/a3.jpg'
+
+# hero-section-blog
+
+blog_slider:
+  - image: 'img/hero/hero-blog.jpg'
+    author: 'Sir Alex James'
+    title: 'The Idea Of God Is <br /> Not Henceforth Relevant'
+    category: 'Technical'
+
+  - image: 'img/hero/hero-blog.jpg'
+    author: 'Sir Alex James'
+    title: 'The Idea Of God Is <br /> Not Henceforth Relevant'
+    category: 'Art &amp; Fantacy'
+
+
