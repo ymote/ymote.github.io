@@ -53,7 +53,7 @@ header:
 
   - name: 'pricing'
     title: 'pricing'
-    link: '/multiple/pricing/'
+    link: '/pricing/'
 
   - name: 'blog'
     title: 'blog'
