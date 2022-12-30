@@ -3,15 +3,14 @@
 ######     Global start     ######
 ####################################
 name                : 'Ducor'
-title               : 'Softdash - Creative SaaS And Software HTML5 Jekyll Template'
+title               : 'Carsmos - Build Your Green Future'
 email               : demo@example.com
 address             : '2216 Park Avenue, California 95630 '
 phone               : 0185612012035
-tagline             : 'description for your new site here' 
+tagline             : 'Build Your Green Future' 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  CARSMOS based on the Open Atom Open Source Foundation, aims to provide a technologically advanced, standard and open source platform to solve problems in smart car research, education and industrial cooperation. platform closure and fragmentation issues.
+
 baseurl             : "" # the subpath of your site, e.g. /blog
 url                 : "https://ymote.github.io" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 favicon: 'img/carsmos-favicon.png'
