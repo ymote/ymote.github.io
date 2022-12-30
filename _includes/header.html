@@ -1,66 +1,8 @@
-{%- if page.hero -%}
-    {%- assign hero = page.hero -%}
-{%- else -%}
-    {%- assign hero = site.hero -%}
-{%- endif -%}
-
 {%- assign logo1 = 'img/carsmos-logo-white.png' -%}
 {%- assign logo2 = 'img/carsmos-logo-blue.png' -%}
 
-{%- if hero == 'product_video' -%}
-
-    {% assign headerClass = 'header2' %}
-
-{% elsif hero == 'sass_sideo' %}
-
-    {% assign headerClass = 'header2' %}
-
-{% elsif hero == 'products_fixed' %}
-
-    {% assign headerClass = "header7" %}
-    {%- assign logo1 = 'img/logo7.png' -%}
-    {%- assign logo2 = 'img/logo.png' -%}
-
-{% elsif hero == 'product_slider' %}
-
-    {% assign headerClass = "header2" %}
-
-{% elsif hero == 'saas_slider' %}
-
-    {% assign headerClass = "header2" %}
-
-{% elsif hero == 'product_image' %}
-
-    {% assign headerClass = "header2" %}
-
-{% elsif hero == 'saas_image' %}
-
-    {% assign headerClass = "header2" %}
-
-{% elsif hero == 'product' %}
-
-    {% assign headerClass = "header" %}
-    {%- assign logo1 = 'img/logo.png' -%}
-    {%- assign logo2 = 'img/logo.png' -%}
-
-{% elsif hero == 'saas_fixed' %}
-
-    {% assign headerClass = "header2" %}
-
-{% elsif hero == "sass" %}
-
-{% assign headerClass = "header" %}
-{%- assign logo1 = 'img/logo.png' -%}
-{%- assign logo2 = 'img/logo.png' -%}
-
-{% elsif hero == "blog_details" %}
-
-{% assign headerClass = "header7" %}
-
-{% endif %}
-
 <!-- start Header Area -->
-<header id="{{ headerClass }}" >
+<header id="header2" >
     <div class="container-fluid">
         <div class="d-flex flex-wrap align-items-center justify-content-between">
             <div id="logo" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
