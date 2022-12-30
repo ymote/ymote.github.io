@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-{%- assign logo1 = 'img/carsmos-logo-white.png' -%}
+{%- assign logo1 = 'img/carsmos-logo-blue.png' -%}
 {%- assign logo2 = 'img/carsmos-logo-blue.png' -%}
 
 <body class="version2 pages">
@@ -14,10 +14,10 @@
         <div class="d-flex flex-wrap align-items-center justify-content-between">
             <div id="logo" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                 <a href="{{ '/' | relative_url }}">
-                    <img class="logo-1" src="{{ 'img/carsmos-logo-white.png' | relative_url }}" alt="" title="" />
+                    <img class="logo-1" src="{{ logo1 | relative_url }}" alt="" title="" />
                 </a>
                 <a href="{{ '/' | relative_url }}">
-                    <img class="logo-2" src="{{ 'img/carsmos-logo-blue.png' | relative_url }}" alt="" title="" />
+                    <img class="logo-2" src="{{ logo2 | relative_url }}" alt="" title="" />
                 </a>
             </div>
             {% include nav-menu.html %}
