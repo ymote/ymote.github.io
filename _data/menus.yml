@@ -1,59 +1,79 @@
 header:
   - name: 'home'
     title: 'Home'
-    link: '/multiple'
+    link: '/'   
     menu-has-children:
-      - name: 'saas'
-        title: 'Home - Saas'
-        link: '/multiple'
-
-      - name: 'saas_fixed'
-        title: 'Home - Saas Fixed'
+      - name: 'overview'
+        title: 'overview'
         link: '/multiple/index1-1/'
 
-      - name: 'home_saas'
-        title: 'Home - Product'
-        link: '/multiple/index2/'
+      - name: 'about'
+        title: 'about us'
+        link: '/multiple/index1-1/'
 
-      - name: 'saas_image'
-        title: 'Home - Saas Image'
-        link: '/multiple/index3/'
+  - name: 'governance'
+    title: 'governence'
+    link: '/multiple'
+    menu-has-children:
+      - name: 'TSC'
+        title: 'Technical Steering Committee'
+        link: '/governance/tsc/'
 
-      - name: 'product_image'
-        title: 'Home - Product Image'
-        link: '/multiple/index4/'
+      - name: 'TEC'
+        title: 'Technical Executive Committee'
+        link: '/governance/tec/'
 
-      - name: 'saas_slider'
-        title: 'Home - Saas Slider'
-        link: '/multiple/index5/'
+      - name: 'PMC'
+        title: 'Program Managment Committee'
+        link: '/governance/pmc/' 
 
-      - name: 'product_slider'
-        title: 'Home - Product Slider'
-        link: '/multiple/index6/'
+      - name: 'charter'
+        title: 'Project Charter'
+        link: '/governance/charter/'
 
-      - name: 'products_fixed'
-        title: 'Home - Products Fixed'
-        link: '/multiple/index7/'
+      - name: 'members'
+        title: 'Project Members'
+        link: '/governance/members/'
 
-      - name: 'sass_video'
-        title: 'Home Sass Video'
-        link: '/multiple/index8/'
+  - name: 'projects'
+    title: 'projects'
+    link: '/'
+    menu-has-children:
+      - name: 'Dora'
+        title: 'Dora'
+        link: '/projects/dora/'
 
-      - name: 'product_ideo'
-        title: 'Home - Product Video'
-        link: '/multiple/index9/'
-        
-  - name: 'Features'
-    title: 'Features'
-    link: '/multiple/features/'
+      - name: 'Oasis'
+        title: 'Oasis'
+        link: '/projects/oasis/'
 
-  - name: 'about'
-    title: 'about'
-    link: '/multiple/about/'
+      - name: 'EmtyOS'
+        title: 'EmtyOS'
+        link: '/projects/emtyos/'  
 
-  - name: 'pricing'
-    title: 'pricing'
-    link: '/pricing/'
+      - name: 'AutoExpress'
+        title: 'AutoExpress'
+        link: '/projects/autoexpress/'
+
+  - name: 'join'
+    title: 'Join Us'
+    link: '/multiple'
+    menu-has-children:
+      - name: 'sponsorship'
+        title: 'Sponsorship'
+        link: '/multiple'
+
+      - name: 'University'
+        title: 'University Program'
+        link: '/multiple/index1-1/'
+
+      - name: 'CLA'
+        title: 'CLA'
+        link: '/multiple/index2/'  
+
+  - name: 'news'
+    title: 'news'
+    link: '/blog/'
 
   - name: 'blog'
     title: 'blog'
@@ -61,5 +81,5 @@ header:
 
   - name: 'contact'
     title: 'contact'
-    link: '/multiple/contact/'
+    link: '/contact/'
 
