@@ -1,6 +1,7 @@
 # This is the draft webpage for CARSMOS.AI
 
 https://ymote.github.io/
+
 https://www.carsmos.ai/
 
 # How to make changes to the Carsmos Jekyll site
@@ -14,5 +15,7 @@ The latest Ruby version 3.2.x is too high to Jekyll as well, with compaibility i
 The best Ruby version to run Jekyll on your Mac is v3.1.x, e.g. 3.1.3.
 
 Please check:
-https://jekyllrb.com/docs/installation/macos/ & 
+
+https://jekyllrb.com/docs/installation/macos/
+
 https://github.com/jekyll/jekyll/issues/9233
