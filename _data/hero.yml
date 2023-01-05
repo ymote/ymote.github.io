@@ -2,9 +2,9 @@
 # sass [ only one image ]
 
 # product_video [ video type mp4 ]
-product_video_name: 'Build Your <br> Green Future' 
-product_video_text: 'CARSMOS based on the Open Atom Open Source Foundation, aims to provide a technologically advanced, standard and open source platform to solve problems in smart car research, education and industrial cooperation. platform closure and fragmentation issues.'
-product_video_image: 'img/iPhoneX.png'
+product_video_name: 'CARSMOS: <br>Open-Source Smart Mobility' 
+product_video_text: 'CARSMOS (Cars' Mobility Operating System) is a project group in autonomous driving to provide a technologically advanced, standard, and open-sourced platform to solve the existing problems in smart car research, education and industrial cooperation, including closed sources and fragmentation.'
+product_video_image: 'img/whitepaper2022.png'
 product_video_video: 'vdo/app-bv.mp4'
 product_video_btn_one_link: '#'
 product_video_btn_one_text:  'Carsmos Challenge 2023'
